@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
-function AboutUsPage() {
+export default function AboutUsPage() {
   const data = [
     {
       title: "Idea & Planning",
@@ -135,5 +135,3 @@ function AboutUsPage() {
     </div>
   );
 }
-
-export default aaboutUsPage;
