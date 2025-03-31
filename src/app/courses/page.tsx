@@ -11,7 +11,7 @@ export default function CoursesPage() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
     null
   );
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLDivElement>(null!);
   const id = useId();
 
   useEffect(() => {
@@ -73,7 +73,7 @@ export default function CoursesPage() {
               </motion.button>
               <motion.div
                 layoutId={`card-${active.title}-${id}`}
-                ref={ref!}
+                ref={ref}
                 className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-neutral-900 sm:rounded-3xl overflow-hidden"
               >
                 <motion.div layoutId={`image-${active.title}-${id}`}>
