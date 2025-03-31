@@ -23,7 +23,7 @@ function HeroSection() {
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Learn and practice music anytime, anywhere with expert-led lessons
-          designed for all skill levels. Whether you're a beginner or an
+          designed for all skill levels. Whether you&apos;re a beginner or an
           advanced musician, our platform helps you improve with interactive
           sessions and a supportive community. Start your musical journey today
           and take your skills to the next level!

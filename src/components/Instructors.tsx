@@ -2,7 +2,6 @@
 import React from "react";
 import { WavyBackground } from "./ui/wavy-background";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
-import { ColourfulText } from "./ui/colourful-text";
 
 function Instructors() {
   const instructors = [
