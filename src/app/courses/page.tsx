@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useOutsideClick } from "@/components/hooks/use-outside-click";
 import courseData from "@/data/music_courses.json";
 
-function CoursesPage() {
+export default function CoursesPage() {
   const cards = courseData.courses;
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
     null
@@ -202,4 +202,3 @@ export const CloseIcon = () => {
   );
 };
 
-export default coursesPage;
